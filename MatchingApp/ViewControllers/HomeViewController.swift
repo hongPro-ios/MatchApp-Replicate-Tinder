@@ -9,11 +9,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    let topView: UIView = {
-        let view = UIView()
-        view.backgroundColor = .blue
-        return view
-    }()
+    let topView = TopControlView()
     
     let middleView: UIView = {
         let view = UIView()
