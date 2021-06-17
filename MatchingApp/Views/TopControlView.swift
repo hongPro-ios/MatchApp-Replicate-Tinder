@@ -60,11 +60,13 @@ class TopControlView: UIView {
         addSubview(baseStackView)
         
         // MARK: - Set Components constraint
-        [baseStackView.topAnchor.constraint(equalTo: topAnchor),
-         baseStackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 40),
-         baseStackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -40),
-         baseStackView.bottomAnchor.constraint(equalTo: bottomAnchor),
-        ].forEach { $0.isActive = true }
+        baseStackView.anchor(
+            top: topAnchor,
+            bottom: bottomAnchor,
+            left: leftAnchor,
+            right: rightAnchor,
+            leftPadding: 40,
+            rightPadding: 40)
     }
     
     private func setupBindings() {
