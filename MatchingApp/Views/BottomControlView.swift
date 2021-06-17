@@ -18,6 +18,14 @@ class BottomControlView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        setupLayouts()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setupLayouts() {
         // MARK: - Create Components
         backgroundColor = .white
         let baseStackView = UIStackView(arrangedSubviews: [reloadButtonView,
@@ -40,11 +48,6 @@ class BottomControlView: UIView {
          baseStackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10),
          baseStackView.bottomAnchor.constraint(equalTo: bottomAnchor),
         ].forEach { $0.isActive = true }
-        
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
     
 }
@@ -55,7 +58,15 @@ class BottomButtonView: UIView {
     
     init(frame: CGRect, width: CGFloat, imageName: String) {
         super.init(frame: frame)
-        
+
+        setupLayouts(frame: frame, width: width, imageName: imageName)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setupLayouts(frame: CGRect, width: CGFloat, imageName: String) {
         button = BottomButton(type: .custom)
         button?.setImage(UIImage(named: imageName)?.resize(size: .init(width: width * 0.4,
                                                                        height: width * 0.4)),
@@ -80,10 +91,6 @@ class BottomButtonView: UIView {
          button.widthAnchor.constraint(equalToConstant: width),
          button.heightAnchor.constraint(equalToConstant: width)
         ].forEach { $0.isActive = true }
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 }
 
