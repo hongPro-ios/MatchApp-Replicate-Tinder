@@ -19,6 +19,7 @@
 		3DD26409267B065B005A3E38 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26408267B065B005A3E38 /* RxCocoa */; };
 		3DD2640B267B065B005A3E38 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD2640A267B065B005A3E38 /* RxRelay */; };
 		3DD2640D267B418D005A3E38 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2640C267B418D005A3E38 /* UIView+Extension.swift */; };
+		3DD2640F267B4B45005A3E38 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2640E267B4B45005A3E38 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3D91F74A2677490300F3FCAA /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		3DD26403267AFEB6005A3E38 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
 		3DD2640C267B418D005A3E38 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3DD2640E267B4B45005A3E38 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				3D91F74826773E9500F3FCAA /* BottomControlView.swift */,
 				3DD26403267AFEB6005A3E38 /* TopControlView.swift */,
+				3DD2640E267B4B45005A3E38 /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				3D55B0B6267476AF0082D7BE /* HomeViewController.swift in Sources */,
 				3D55B0B2267476AF0082D7BE /* AppDelegate.swift in Sources */,
 				3D91F74B2677490300F3FCAA /* UIImage+Extension.swift in Sources */,
+				3DD2640F267B4B45005A3E38 /* CardView.swift in Sources */,
 				3D55B0B4267476AF0082D7BE /* SceneDelegate.swift in Sources */,
 				3D91F74926773E9500F3FCAA /* BottomControlView.swift in Sources */,
 			);

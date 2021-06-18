@@ -11,11 +11,7 @@ class HomeViewController: UIViewController {
     
     let topView = TopControlView()
     
-    let middleView: UIView = {
-        let view = UIView()
-        view.backgroundColor = .systemPink
-        return view
-    }()
+    let middleView = CardView()
     
     let bottomView = BottomControlView()
     
