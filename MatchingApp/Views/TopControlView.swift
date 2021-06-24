@@ -43,7 +43,6 @@ class TopControlView: UIView {
     }
     
     private func setupLayouts() {
-        backgroundColor = .white
         
         // MARK: - Create Components
         let baseStackView = UIStackView(arrangedSubviews: [tinderButton,
