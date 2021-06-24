@@ -10,3 +10,6 @@ Feature
 
 ### メイン画面のtop
 <img src="https://user-images.githubusercontent.com/77764136/122368387-43899200-cf98-11eb-9ba2-0b0fee9781d5.png" width="200">
+
+### メイン画面のmiddle
+https://user-images.githubusercontent.com/77764136/123196117-4fb7a700-d4e4-11eb-8393-b4edbf1a8c1f.mp4
