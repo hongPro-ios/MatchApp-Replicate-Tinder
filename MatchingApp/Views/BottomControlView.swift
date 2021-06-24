@@ -27,7 +27,6 @@ class BottomControlView: UIView {
     
     private func setupLayouts() {
         // MARK: - Create Components
-        backgroundColor = .white
         let baseStackView = UIStackView(arrangedSubviews: [reloadButtonView,
                                                            nopeButtonView,
                                                            superLikeButtonView,
