@@ -13,8 +13,11 @@
 		3D55B0B6267476AF0082D7BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55B0B5267476AF0082D7BE /* HomeViewController.swift */; };
 		3D55B0BB267476B00082D7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D55B0BA267476B00082D7BE /* Assets.xcassets */; };
 		3D55B0BE267476B00082D7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D55B0BC267476B00082D7BE /* LaunchScreen.storyboard */; };
+		3D5E33CA26895CD40017838A /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E33C926895CD40017838A /* UIButton+Extension.swift */; };
+		3D5E33CC26895E880017838A /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E33CB26895E880017838A /* CardImageView.swift */; };
 		3D91F74926773E9500F3FCAA /* BottomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91F74826773E9500F3FCAA /* BottomControlView.swift */; };
 		3D91F74B2677490300F3FCAA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91F74A2677490300F3FCAA /* UIImage+Extension.swift */; };
+		3DABCFF92685D567000A89BE /* CardInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABCFF82685D567000A89BE /* CardInfoLabel.swift */; };
 		3DD26404267AFEB6005A3E38 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD26403267AFEB6005A3E38 /* TopControlView.swift */; };
 		3DD26407267B065B005A3E38 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26406267B065B005A3E38 /* RxSwift */; };
 		3DD26409267B065B005A3E38 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26408267B065B005A3E38 /* RxCocoa */; };
@@ -32,8 +35,11 @@
 		3D55B0BA267476B00082D7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D55B0BD267476B00082D7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D55B0BF267476B00082D7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5E33C926895CD40017838A /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		3D5E33CB26895E880017838A /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
 		3D91F74826773E9500F3FCAA /* BottomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlView.swift; sourceTree = "<group>"; };
 		3D91F74A2677490300F3FCAA /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		3DABCFF82685D567000A89BE /* CardInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoLabel.swift; sourceTree = "<group>"; };
 		3DD26403267AFEB6005A3E38 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
 		3DD2640C267B418D005A3E38 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3DD2640E267B4B45005A3E38 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -98,6 +104,8 @@
 				3D91F74826773E9500F3FCAA /* BottomControlView.swift */,
 				3DD26403267AFEB6005A3E38 /* TopControlView.swift */,
 				3DD2640E267B4B45005A3E38 /* CardView.swift */,
+				3DABCFF82685D567000A89BE /* CardInfoLabel.swift */,
+				3D5E33CB26895E880017838A /* CardImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 				3D91F74A2677490300F3FCAA /* UIImage+Extension.swift */,
 				3DD2640C267B418D005A3E38 /* UIView+Extension.swift */,
 				3D12C104268424F6006ED719 /* UIColor+Extension.swift */,
+				3D5E33C926895CD40017838A /* UIButton+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -191,12 +200,15 @@
 			files = (
 				3DD26404267AFEB6005A3E38 /* TopControlView.swift in Sources */,
 				3DD2640D267B418D005A3E38 /* UIView+Extension.swift in Sources */,
+				3DABCFF92685D567000A89BE /* CardInfoLabel.swift in Sources */,
+				3D5E33CA26895CD40017838A /* UIButton+Extension.swift in Sources */,
 				3D55B0B6267476AF0082D7BE /* HomeViewController.swift in Sources */,
 				3D12C105268424F6006ED719 /* UIColor+Extension.swift in Sources */,
 				3D55B0B2267476AF0082D7BE /* AppDelegate.swift in Sources */,
 				3D91F74B2677490300F3FCAA /* UIImage+Extension.swift in Sources */,
 				3DD2640F267B4B45005A3E38 /* CardView.swift in Sources */,
 				3D55B0B4267476AF0082D7BE /* SceneDelegate.swift in Sources */,
+				3D5E33CC26895E880017838A /* CardImageView.swift in Sources */,
 				3D91F74926773E9500F3FCAA /* BottomControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
