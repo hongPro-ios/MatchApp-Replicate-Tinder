@@ -19,14 +19,18 @@
 		3D91F74B2677490300F3FCAA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91F74A2677490300F3FCAA /* UIImage+Extension.swift */; };
 		3DABCFF92685D567000A89BE /* CardInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABCFF82685D567000A89BE /* CardInfoLabel.swift */; };
 		3DD26404267AFEB6005A3E38 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD26403267AFEB6005A3E38 /* TopControlView.swift */; };
-		3DD26407267B065B005A3E38 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26406267B065B005A3E38 /* RxSwift */; };
-		3DD26409267B065B005A3E38 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26408267B065B005A3E38 /* RxCocoa */; };
-		3DD2640B267B065B005A3E38 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD2640A267B065B005A3E38 /* RxRelay */; };
+		3DD26407267B065B005A3E38 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26406267B065B005A3E38 /* SwiftPackageProductDependency */; };
+		3DD26409267B065B005A3E38 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26408267B065B005A3E38 /* SwiftPackageProductDependency */; };
+		3DD2640B267B065B005A3E38 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD2640A267B065B005A3E38 /* SwiftPackageProductDependency */; };
 		3DD2640D267B418D005A3E38 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2640C267B418D005A3E38 /* UIView+Extension.swift */; };
 		3DD2640F267B4B45005A3E38 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2640E267B4B45005A3E38 /* CardView.swift */; };
+		3DD6853E26A9A39E0021DEE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DD6853D26A9A39E0021DEE3 /* GoogleService-Info.plist */; };
+		A4FFB95800E22829C1574DC6 /* Pods_MatchingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A34FF5FD6DE0B8E038C8329 /* Pods_MatchingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A34FF5FD6DE0B8E038C8329 /* Pods_MatchingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		274FD43EF14E5AEF65DC0516 /* Pods-MatchingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchingApp.release.xcconfig"; path = "Target Support Files/Pods-MatchingApp/Pods-MatchingApp.release.xcconfig"; sourceTree = "<group>"; };
 		3D12C104268424F6006ED719 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		3D55B0AE267476AF0082D7BE /* MatchingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D55B0B1267476AF0082D7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,8 @@
 		3DD26403267AFEB6005A3E38 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
 		3DD2640C267B418D005A3E38 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3DD2640E267B4B45005A3E38 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3DD6853D26A9A39E0021DEE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A15490491F9C55179D9D34B /* Pods-MatchingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchingApp.debug.xcconfig"; path = "Target Support Files/Pods-MatchingApp/Pods-MatchingApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,20 +56,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD2640B267B065B005A3E38 /* RxRelay in Frameworks */,
-				3DD26409267B065B005A3E38 /* RxCocoa in Frameworks */,
-				3DD26407267B065B005A3E38 /* RxSwift in Frameworks */,
+				3DD2640B267B065B005A3E38 /* BuildFile in Frameworks */,
+				3DD26409267B065B005A3E38 /* BuildFile in Frameworks */,
+				3DD26407267B065B005A3E38 /* BuildFile in Frameworks */,
+				A4FFB95800E22829C1574DC6 /* Pods_MatchingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F4CE315090A372018CA01ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A34FF5FD6DE0B8E038C8329 /* Pods_MatchingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3D55B0A5267476AF0082D7BE = {
 			isa = PBXGroup;
 			children = (
 				3D55B0B0267476AF0082D7BE /* MatchingApp */,
 				3D55B0AF267476AF0082D7BE /* Products */,
+				D8B832BE19073FB36245B288 /* Pods */,
+				2F4CE315090A372018CA01ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +100,7 @@
 				3D91F74626773E5300F3FCAA /* ViewControllers */,
 				3D55B0B1267476AF0082D7BE /* AppDelegate.swift */,
 				3D55B0B3267476AF0082D7BE /* SceneDelegate.swift */,
+				3DD6853D26A9A39E0021DEE3 /* GoogleService-Info.plist */,
 				3D55B0BA267476B00082D7BE /* Assets.xcassets */,
 				3D55B0BC267476B00082D7BE /* LaunchScreen.storyboard */,
 				3D55B0BF267476B00082D7BE /* Info.plist */,
@@ -121,6 +139,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		D8B832BE19073FB36245B288 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A15490491F9C55179D9D34B /* Pods-MatchingApp.debug.xcconfig */,
+				274FD43EF14E5AEF65DC0516 /* Pods-MatchingApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D55B0C2267476B00082D7BE /* Build configuration list for PBXNativeTarget "MatchingApp" */;
 			buildPhases = (
+				D38844211CCE3AD566BDDCC7 /* [CP] Check Pods Manifest.lock */,
 				3D55B0AA267476AF0082D7BE /* Sources */,
 				3D55B0AB267476AF0082D7BE /* Frameworks */,
 				3D55B0AC267476AF0082D7BE /* Resources */,
+				D4C7B6D0A2E3704F0A9C806B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,9 +168,9 @@
 			);
 			name = MatchingApp;
 			packageProductDependencies = (
-				3DD26406267B065B005A3E38 /* RxSwift */,
-				3DD26408267B065B005A3E38 /* RxCocoa */,
-				3DD2640A267B065B005A3E38 /* RxRelay */,
+				3DD26406267B065B005A3E38 /* SwiftPackageProductDependency */,
+				3DD26408267B065B005A3E38 /* SwiftPackageProductDependency */,
+				3DD2640A267B065B005A3E38 /* SwiftPackageProductDependency */,
 			);
 			productName = MatchingApp;
 			productReference = 3D55B0AE267476AF0082D7BE /* MatchingApp.app */;
@@ -170,7 +200,7 @@
 			);
 			mainGroup = 3D55B0A5267476AF0082D7BE;
 			packageReferences = (
-				3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 3D55B0AF267476AF0082D7BE /* Products */;
 			projectDirPath = "";
@@ -188,10 +218,53 @@
 			files = (
 				3D55B0BE267476B00082D7BE /* LaunchScreen.storyboard in Resources */,
 				3D55B0BB267476B00082D7BE /* Assets.xcassets in Resources */,
+				3DD6853E26A9A39E0021DEE3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D38844211CCE3AD566BDDCC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MatchingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C7B6D0A2E3704F0A9C806B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatchingApp/Pods-MatchingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatchingApp/Pods-MatchingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatchingApp/Pods-MatchingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D55B0AA267476AF0082D7BE /* Sources */ = {
@@ -345,6 +418,7 @@
 		};
 		3D55B0C3267476B00082D7BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A15490491F9C55179D9D34B /* Pods-MatchingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -364,6 +438,7 @@
 		};
 		3D55B0C4267476B00082D7BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274FD43EF14E5AEF65DC0516 /* Pods-MatchingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -405,7 +480,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
@@ -416,19 +491,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3DD26406267B065B005A3E38 /* RxSwift */ = {
+		3DD26406267B065B005A3E38 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */;
 			productName = RxSwift;
 		};
-		3DD26408267B065B005A3E38 /* RxCocoa */ = {
+		3DD26408267B065B005A3E38 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */;
 			productName = RxCocoa;
 		};
-		3DD2640A267B065B005A3E38 /* RxRelay */ = {
+		3DD2640A267B065B005A3E38 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */;
 			productName = RxRelay;
 		};
 /* End XCSwiftPackageProductDependency section */
