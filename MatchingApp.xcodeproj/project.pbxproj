@@ -15,13 +15,15 @@
 		3D55B0BE267476B00082D7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D55B0BC267476B00082D7BE /* LaunchScreen.storyboard */; };
 		3D5E33CA26895CD40017838A /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E33C926895CD40017838A /* UIButton+Extension.swift */; };
 		3D5E33CC26895E880017838A /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E33CB26895E880017838A /* CardImageView.swift */; };
+		3D85B11926A9AB9A001A7A43 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85B11826A9AB9A001A7A43 /* RegisterViewController.swift */; };
+		3D85B11D26A9B049001A7A43 /* RegisterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85B11C26A9B049001A7A43 /* RegisterTextField.swift */; };
 		3D91F74926773E9500F3FCAA /* BottomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91F74826773E9500F3FCAA /* BottomControlView.swift */; };
 		3D91F74B2677490300F3FCAA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91F74A2677490300F3FCAA /* UIImage+Extension.swift */; };
 		3DABCFF92685D567000A89BE /* CardInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABCFF82685D567000A89BE /* CardInfoLabel.swift */; };
 		3DD26404267AFEB6005A3E38 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD26403267AFEB6005A3E38 /* TopControlView.swift */; };
-		3DD26407267B065B005A3E38 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26406267B065B005A3E38 /* SwiftPackageProductDependency */; };
-		3DD26409267B065B005A3E38 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26408267B065B005A3E38 /* SwiftPackageProductDependency */; };
-		3DD2640B267B065B005A3E38 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD2640A267B065B005A3E38 /* SwiftPackageProductDependency */; };
+		3DD26407267B065B005A3E38 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26406267B065B005A3E38 /* RxSwift */; };
+		3DD26409267B065B005A3E38 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD26408267B065B005A3E38 /* RxCocoa */; };
+		3DD2640B267B065B005A3E38 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD2640A267B065B005A3E38 /* RxRelay */; };
 		3DD2640D267B418D005A3E38 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2640C267B418D005A3E38 /* UIView+Extension.swift */; };
 		3DD2640F267B4B45005A3E38 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2640E267B4B45005A3E38 /* CardView.swift */; };
 		3DD6853E26A9A39E0021DEE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DD6853D26A9A39E0021DEE3 /* GoogleService-Info.plist */; };
@@ -41,6 +43,8 @@
 		3D55B0BF267476B00082D7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5E33C926895CD40017838A /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		3D5E33CB26895E880017838A /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		3D85B11826A9AB9A001A7A43 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3D85B11C26A9B049001A7A43 /* RegisterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTextField.swift; sourceTree = "<group>"; };
 		3D91F74826773E9500F3FCAA /* BottomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlView.swift; sourceTree = "<group>"; };
 		3D91F74A2677490300F3FCAA /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		3DABCFF82685D567000A89BE /* CardInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoLabel.swift; sourceTree = "<group>"; };
@@ -56,9 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD2640B267B065B005A3E38 /* BuildFile in Frameworks */,
-				3DD26409267B065B005A3E38 /* BuildFile in Frameworks */,
-				3DD26407267B065B005A3E38 /* BuildFile in Frameworks */,
+				3DD2640B267B065B005A3E38 /* RxRelay in Frameworks */,
+				3DD26409267B065B005A3E38 /* RxCocoa in Frameworks */,
+				3DD26407267B065B005A3E38 /* RxSwift in Frameworks */,
 				A4FFB95800E22829C1574DC6 /* Pods_MatchingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,15 +112,7 @@
 			path = MatchingApp;
 			sourceTree = "<group>";
 		};
-		3D91F74626773E5300F3FCAA /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				3D55B0B5267476AF0082D7BE /* HomeViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		3D91F74726773E8300F3FCAA /* Views */ = {
+		3D85B11A26A9B024001A7A43 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				3D91F74826773E9500F3FCAA /* BottomControlView.swift */,
@@ -124,6 +120,32 @@
 				3DD2640E267B4B45005A3E38 /* CardView.swift */,
 				3DABCFF82685D567000A89BE /* CardInfoLabel.swift */,
 				3D5E33CB26895E880017838A /* CardImageView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D85B11B26A9B02F001A7A43 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				3D85B11C26A9B049001A7A43 /* RegisterTextField.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		3D91F74626773E5300F3FCAA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D55B0B5267476AF0082D7BE /* HomeViewController.swift */,
+				3D85B11826A9AB9A001A7A43 /* RegisterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D91F74726773E8300F3FCAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D85B11B26A9B02F001A7A43 /* Register */,
+				3D85B11A26A9B024001A7A43 /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,7 +167,6 @@
 				7A15490491F9C55179D9D34B /* Pods-MatchingApp.debug.xcconfig */,
 				274FD43EF14E5AEF65DC0516 /* Pods-MatchingApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -168,9 +189,9 @@
 			);
 			name = MatchingApp;
 			packageProductDependencies = (
-				3DD26406267B065B005A3E38 /* SwiftPackageProductDependency */,
-				3DD26408267B065B005A3E38 /* SwiftPackageProductDependency */,
-				3DD2640A267B065B005A3E38 /* SwiftPackageProductDependency */,
+				3DD26406267B065B005A3E38 /* RxSwift */,
+				3DD26408267B065B005A3E38 /* RxCocoa */,
+				3DD2640A267B065B005A3E38 /* RxRelay */,
 			);
 			productName = MatchingApp;
 			productReference = 3D55B0AE267476AF0082D7BE /* MatchingApp.app */;
@@ -200,7 +221,7 @@
 			);
 			mainGroup = 3D55B0A5267476AF0082D7BE;
 			packageReferences = (
-				3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */,
+				3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 3D55B0AF267476AF0082D7BE /* Products */;
 			projectDirPath = "";
@@ -281,6 +302,8 @@
 				3D91F74B2677490300F3FCAA /* UIImage+Extension.swift in Sources */,
 				3DD2640F267B4B45005A3E38 /* CardView.swift in Sources */,
 				3D55B0B4267476AF0082D7BE /* SceneDelegate.swift in Sources */,
+				3D85B11D26A9B049001A7A43 /* RegisterTextField.swift in Sources */,
+				3D85B11926A9AB9A001A7A43 /* RegisterViewController.swift in Sources */,
 				3D5E33CC26895E880017838A /* CardImageView.swift in Sources */,
 				3D91F74926773E9500F3FCAA /* BottomControlView.swift in Sources */,
 			);
@@ -480,7 +503,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */ = {
+		3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
@@ -491,19 +514,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3DD26406267B065B005A3E38 /* SwiftPackageProductDependency */ = {
+		3DD26406267B065B005A3E38 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */;
+			package = 3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
-		3DD26408267B065B005A3E38 /* SwiftPackageProductDependency */ = {
+		3DD26408267B065B005A3E38 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */;
+			package = 3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		3DD2640A267B065B005A3E38 /* SwiftPackageProductDependency */ = {
+		3DD2640A267B065B005A3E38 /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3DD26405267B065B005A3E38 /* RemoteSwiftPackageReference */;
+			package = 3DD26405267B065B005A3E38 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
 /* End XCSwiftPackageProductDependency section */
